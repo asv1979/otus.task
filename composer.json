@@ -15,7 +15,9 @@
         "php": ">=7.2.0"
     },
     "autoload": {
-      "classmap": ["src"]
+        "psr-4": {
+            "asv2108\\String\\": "/src/"
+        }
     }
 
 }
